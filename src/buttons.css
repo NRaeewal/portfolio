@@ -1,0 +1,44 @@
+.navbutton {
+  border-width: 0px;
+  height: 40px;
+  background-color: #bfc2bf;
+  font-family: serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.navbutton:hover {
+  background-color: #bd8e3b;
+  opacity: 60%;
+}
+
+.blue-button {
+  border-width: 0px;
+  height: 50px;
+  background-color: #00ab84;
+  border-radius: 100px;
+  color: white;
+  width: 200px;
+  font-family: serif;
+  font-size: 18px;
+}
+
+.blue-button:hover {
+  opacity: 50%;
+}
+
+.grey-button {
+  border-width: 0px;
+  height: 50px;
+  background-color: #bfc2bf;
+  border-radius: 100px;
+  color: white;
+  width: 200px;
+  font-family: serif;
+  font-size: 18px;
+}
+
+.grey-button:hover {
+  opacity: 50%;
+}

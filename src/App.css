@@ -3,9 +3,26 @@
 }
 
 .section {
-  border: solid grey;
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 80vh;
+  margin-top: 20px;
+}
+
+.section-line {
+  width: 80%;
+}
+
+#circle-design {
+  animation: spin 10s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

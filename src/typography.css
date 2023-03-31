@@ -1,0 +1,39 @@
+.header-large {
+  font-family: serif;
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.header-large-accent {
+  font-family: serif;
+  font-size: 80px;
+  font-weight: 800;
+  color: #00ab84;
+}
+
+.subheader {
+  font-family: serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: grey;
+}
+
+.nav-logo {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  font-size: large;
+  color: #00ab84;
+}
+
+.header {
+  font-family: serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #00ab84;
+}
+
+.regular {
+  font-family: serif;
+  font-size: 30px;
+  color: grey;
+}

@@ -1,0 +1,9 @@
+.contact-card {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}

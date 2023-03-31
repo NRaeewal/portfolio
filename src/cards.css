@@ -1,0 +1,17 @@
+.project-card {
+  border: solid grey;
+  width: 300px;
+  height: 350px;
+}
+
+.project-card > p {
+  visibility: hidden;
+}
+
+.project-card:hover > p {
+  visibility: visible;
+}
+
+.project-card:hover {
+  opacity: 50%;
+}
