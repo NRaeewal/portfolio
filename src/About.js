@@ -10,7 +10,7 @@ const About = () => {
     <div className='about-section' id='about'>
     <div className='about-information' >
       <div className='header-large'> Hi my name is <span className='header-large-accent'>Nar!</span></div>
-      <div className='subheader'> I'm a teacher turned software developer.</div>
+      <div className='subheader'> I'm a software developer from Calgary, AB. Portfolio continues to be updated weekly!</div>
 
     </div>
     <div className='about-image'>

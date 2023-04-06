@@ -1,10 +1,12 @@
 .navigation-bar {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   height: 40px;
   align-items: center;
   background-color: #bfc2bf;
   padding: 10px;
+  width: 100%;
 }
 
 .navigation-links {
@@ -13,3 +15,43 @@
   justify-content: space-between;
   align-items: flex-end;
 }
+
+.sideMenu{
+  visibility: hidden;
+  position: fixed;
+}
+
+.sideMenu.sideMenuOpen{
+  width: 50vw;
+  background-color: #BD8E3B;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  visibility: visible;
+  position: fixed;
+}
+
+.closeNavButton{
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  color: aliceblue;
+}
+
+.sidemenu-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 25px;
+}
+
+.sidemenu-links > .navbutton:hover {
+color: #00ab84;
+}
+
+.sidemenu-links > .navbutton {
+font-size: 25px;  }

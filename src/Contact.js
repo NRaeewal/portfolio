@@ -1,5 +1,7 @@
 import ContactImage from './images/nar.png'
 
+import './contact.css'
+
 const Contact = () =>{
   return(
     <div className="section" id="contact">

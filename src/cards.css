@@ -1,17 +1,27 @@
 .project-card {
   border: solid grey;
   width: 300px;
-  height: 350px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
 }
 
-.project-card > p {
+.project-card > a {
   visibility: hidden;
 }
 
-.project-card:hover > p {
+.project-card:hover > a {
   visibility: visible;
 }
 
+
 .project-card:hover {
   opacity: 50%;
+}
+
+a{ 
+  overflow-wrap: anywhere;
 }

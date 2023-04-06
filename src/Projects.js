@@ -4,7 +4,7 @@ import './projects.css'
 
 const Projects = () => {
 
-  const projectLinks = [{name: "International Safety", link: "https://www.internationalsafety.com/"}, {name: "ODC", link: "https://www.internationalsafety.com/"} ]
+  const projectLinks = [{name: "International Safety", link: "https://www.internationalsafety.com/"}, {name: "ODC", link: "https://healthcoinrewards.ottawadermcentre.com/"}, {name: "StemChef", link: "https://www.stemchef.com/all-access-group"}, {name: "CodeBreaker", link: "https://pages.git.generalassemb.ly/nraeewal/CodeBreakerGame/"}, {name: "Map-Out", link: "https://github.com/NRaeewal/map-out"} ]
 
 
   const cardColors = ["#BD8E3B", "#00B2BD", "#C677E0", "#00AB84", "#FFF099", "#2F4858"]

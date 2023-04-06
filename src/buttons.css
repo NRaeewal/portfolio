@@ -1,7 +1,7 @@
 .navbutton {
   border-width: 0px;
   height: 40px;
-  background-color: #bfc2bf;
+  background-color: transparent;
   font-family: serif;
   font-size: 15px;
   font-weight: bold;
@@ -9,8 +9,7 @@
 }
 
 .navbutton:hover {
-  background-color: #bd8e3b;
-  opacity: 60%;
+  color: #bd8e3b;
 }
 
 .blue-button {
@@ -41,4 +40,19 @@
 
 .grey-button:hover {
   opacity: 50%;
+}
+
+.menuButton{
+  visibility: hidden;
+  padding: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .menuButton{
+    visibility: visible;
+  }
+  .navigation-links{
+  visibility: hidden;
+  }
 }

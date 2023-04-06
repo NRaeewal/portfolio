@@ -2,7 +2,6 @@ import './cards.css'
 
 import design from './images/logo.png'
 
-import { useEffect , useState} from 'react'
 
 const Cards = ({name, link, color}) => {
 
@@ -12,8 +11,8 @@ const Cards = ({name, link, color}) => {
   return (
 
     <div className="project-card"  style={{backgroundColor: color}}>
-    <p>{name}</p>
-    <p>{link}</p>
+    <p className='subheader'>{name}</p>
+    <a href={link} target="_blank">{link}</a>
   </div>
   )
 }
