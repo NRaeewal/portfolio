@@ -42,9 +42,12 @@
   opacity: 50%;
 }
 
+
 .menuButton{
   visibility: hidden;
-  padding: 20px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
 }
 
 
@@ -53,6 +56,6 @@
     visibility: visible;
   }
   .navbutton{
-  visibility: hidden;
+    visibility: hidden;
   }
 }

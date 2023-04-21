@@ -6,14 +6,13 @@
   align-items: center;
   background-color: #bfc2bf;
   padding: 10px;
-  width: 100%;
+  width: 100vw;
 }
 
 .navigation-links {
   width: 300px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .sideMenu{
