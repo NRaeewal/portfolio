@@ -53,5 +53,7 @@
 color: #00ab84;
 }
 
-.sidemenu-links > .navbutton {
-font-size: 25px;  }
+.sideMenu.sideMenuOpen >.sidemenu-links > .navbutton {
+visibility: visible;
+font-size: 25px;  
+}

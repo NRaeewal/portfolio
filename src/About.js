@@ -5,6 +5,11 @@ import './typography.css'
 import './buttons.css'
 
 const About = () => {
+
+  const handleContactButton = () => {
+    document.getElementById("contact").scrollIntoView({behaviour: "smooth"})
+
+  }
   return(
     <div>
     <div className='about-section' id='about'>
@@ -19,8 +24,10 @@ const About = () => {
   
     </div>
         <div className='about-links'>
-        <button className='blue-button'> Contact Me</button>
-        <button className='grey-button'> Add me on LinkedIn</button>
+        <button className='blue-button' onClick={(e) => {e.preventDefault(); handleContactButton()}}> Contact Me</button>
+        <button className='grey-button'     
+          onClick={(e) => {e.preventDefault(); window.location.href='https://www.linkedin.com/in/nar-raeewal-719297151/';}}> Add me on LinkedIn
+        </button>
       </div>
     </div>
   )

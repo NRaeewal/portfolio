@@ -43,7 +43,7 @@ const NavigationBar = () => {
       <div className="navigation-links">
         <button className="navbutton" 
                 onClick={(e) => {
-                e.preventDefault();
+                e.preventDefault()
                 handleClickScroll("about");
               }}> 
               About
